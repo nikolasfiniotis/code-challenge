@@ -2,7 +2,7 @@ from fastapi import FastAPI, Query
 from pymongo import MongoClient
 from fuzzywuzzy import fuzz
 
-from app.amend_nobel import Prize
+from app.nobel_prize_model import Prize
 
 app = FastAPI()
 
